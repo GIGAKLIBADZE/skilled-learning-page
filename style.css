@@ -90,13 +90,7 @@ body {
     justify-content: center;
 }
 
-#check {
-    background-color: red; /* for browsers that does not support gradients */
-    background-image: linear-gradient(#FF6F48, #F02AA6);
-    height: 120px;
-}
-
-#check h2 {
+.check h2 {
     font-size: 24px;
     font-weight: 800px;
     color: #FFFFFF;
@@ -116,6 +110,13 @@ body {
     width: 343px;
     height: 259px;
     background-color: white;
+    margin-bottom: 40px;
+}
+
+.check {
+    background-color: red; /* for browsers that does not support gradients */
+    background-image: linear-gradient(#FF6F48, #F02AA6);
+    height: 120px !important;
 }
 
 .anim-img {
@@ -353,9 +354,9 @@ body {
         margin-right: 10px;
     }
 
-    #check {
+    .check {
         width: 339px;
-        height: 259px;
+        height: 259px !important;
     }
 
     h2 {
@@ -445,10 +446,9 @@ body {
 
     .courses a{cursor: pointer};
 
-    #check {
+    .check {
         width: 350px;
-        min-height: 322px;
-        padding-top: 100px;
+        height: 322px !important;
         background-color: black;
     }
 
