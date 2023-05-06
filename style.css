@@ -387,7 +387,7 @@ body {
         opacity: 60%;
     }
 
-    .first-button{cursor: pointer};
+    .first-button{cursor: pointer;}
 
     .top-right {
         font-size: 18px;
@@ -416,7 +416,7 @@ body {
         opacity: 60%;
     }
 
-    .sec-button{cursor: pointer};
+    .sec-button{cursor: pointer;}
 
     .courses {
         flex-direction: row;
@@ -444,7 +444,7 @@ body {
         opacity: 60%;
     }
 
-    .courses a{cursor: pointer};
+    .courses a{cursor: pointer;}
 
     .check {
         width: 350px;
@@ -512,7 +512,7 @@ body {
         opacity: 60%;
     }
 
-    .last-start{cursor: pointer};
+    .last-start{cursor: pointer;}
 
     .last p {
         font-size: 18px;   
